@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Simples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            margin: 20px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bem-vindo ao Meu Site</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+
+<section>
+    <h2>Sobre o Site</h2>
+    <p>Este é um exemplo simples de um site criado com HTML e CSS. Você pode adicionar qualquer conteúdo que desejar e personalizar o estilo conforme suas preferências.</p>
+
+    <h3>O que você encontra aqui:</h3>
+    <ul>
+        <li>Informações sobre o site</li>
+        <li>Links de navegação</li>
+        <li>Seção de contato</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
